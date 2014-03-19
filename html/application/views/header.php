@@ -15,7 +15,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
-					<div class="b-logo"><a href="#">Спецавто<span class="b-sep">-</span><span class="b-txt">торг.</span><small>рф</small></a></div>
+					<div class="b-logo"><a href="спецавто-торг.рф">Спецавто<span class="b-sep">-</span><span class="b-txt">торг.</span><small>рф</small></a></div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="b-top-contact">
@@ -69,12 +69,12 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="#"><span>Главная</span></a></li>
+							<li class="active"><a href="спецавто-торг.рф"><span>Главная</span></a></li>
 							<li><a href="<?php echo base_url(); ?>agp"><span>Автовышки</span></a></li>
-							<li><a href="<?php echo base_url(); ?>cranes"><span>Краны-манипуляторы</span></a></li>
-							<li><a href="<?php echo base_url(); ?>wreckers"><span>Эвакуаторы</span></a></li>							
+							<li><a href="<?php echo base_url(); ?>kmu"><span>Краны-манипуляторы</span></a></li>
+							<li><a href="<?php echo base_url(); ?>aesp"><span>Эвакуаторы</span></a></li>							
 							<li><a href="<?php echo base_url(); ?>about"><span>О компании</span></a></li>
-							<li><a href="<?php echo base_url(); ?>contacts"><span>Контакты</span></a></li>
+							<li><a href="<?php echo base_url(); ?>contact_us"><span>Контакты</span></a></li>
 						</ul>
 					</div>
 				</nav>
