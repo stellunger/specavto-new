@@ -4,7 +4,9 @@ class Pages extends CI_Controller {
 	
 	public function index()
 	{
-		$this->load->view('header');
+		$data['title'] = 'Поставка спецтехники от ведущих производителей | Спецавто-торг.рф';
+
+		$this->load->view('header', $data);
 		$this->load->view('main-page');
 		$this->load->view('footer');
 	}
@@ -16,7 +18,16 @@ class Pages extends CI_Controller {
 		$data['zayavka'] = $this->load->view('zayavka','',true);
 		$data['left_menu_agp'] = $this->load->view('left-menu-agp','',true);
 
-		$this->load->view('header');
+		switch($page_id)
+		{
+			case 'agp':
+				$data['title'] = 'Автовышки, автогидроподъемники';
+				break;
+		}
+		
+		$data['title'] .= '| Спецавто-торг.рф';
+
+		$this->load->view('header', $data);
 		$this->load->view($page_id, $data);
 		$this->load->view('footer');
 	}
