@@ -5,18 +5,17 @@
 				<div class="col-md-2">
 					<h3>Продукция</h3>
 					<ul class="b-ul-list1">
-						<li><a href="#">Автовышки</a></li>
-						<li><a href="#">Краны-манипуляторы</a></li>
-						<li><a href="#">Эвакуаторы</a></li>
-						<li><a href="#">Автобетононасосы</a></li>
-						<li><a href="#">Электростанции</a></li>
+						<li><a href="agp">Автовышки</a></li>
+						<li><a href="kmu">Краны-манипуляторы</a></li>
+						<li><a href="aesp">Эвакуаторы</a></li>
+						
 					</ul>
 				</div>
 				<div class="col-md-2">
 					<h3>О компании</h3>
 					<ul class="b-ul-list1">
-						<li><a href="#">Наши партнеры</a></li>
-						<li><a href="#">О нас</a></li>
+						<li><a href="about">О компании</a></li>
+						<li><a href="contact_us">Контакты</a></li>
 					</ul>
 				</div>
 				<div class="col-md-2">
