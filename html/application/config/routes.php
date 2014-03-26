@@ -41,6 +41,7 @@
 $route['default_controller'] = "pages";
 $route['404_override'] = '';
 
+$route['send_email'] = 'pages/send_email';
 $route['(:any)'] = 'pages/show_page/$1';
 
 

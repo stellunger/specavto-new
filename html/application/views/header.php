@@ -15,7 +15,7 @@
 		<div class="container">
 			<div class="row">
 				<div class="col-md-6 col-sm-6">
-					<div class="b-logo"><a href="спецавто-торг.рф">Спецавто<span class="b-sep">-</span><span class="b-txt">торг.</span><small>рф</small></a></div>
+					<div class="b-logo"><a href="<?php echo base_url(); ?>">Спецавто<span class="b-sep">-</span><span class="b-txt">торг.</span><small>рф</small></a></div>
 				</div>
 				<div class="col-md-6 col-sm-6">
 					<div class="b-top-contact">
@@ -26,23 +26,23 @@
 
 							  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
 								<li>
-									<form action="" class="order-form">
+									<?php $attributes = array('class' => 'order-form'); ?>
+									<?php echo form_open('send_email',$attributes); ?>
 									<b></b>
 							<div class="form-group">
-									<input type="text" class="form-control" placeholder="Имя">
+									<input type="text" class="form-control" placeholder="Имя и фамилия" name="inputName">
+							</div>							
+							<div class="form-group">
+									<input type="text" class="form-control" placeholder="Компания" name="inputCompany">
 							</div>
 							<div class="form-group">
-									<input type="text" class="form-control" placeholder="Фамилия">
+									<input type="text" class="form-control" placeholder="Телефон" name="inputPhone">
 							</div>
 							<div class="form-group">
-									<input type="text" class="form-control" placeholder="Компания">
+									<input type="text" class="form-control" placeholder="E-mail" name="inputEmail">
 							</div>
 							<div class="form-group">
-									<input type="text" class="form-control" placeholder="Телефон">
-							</div>
-							
-							<div class="form-group">
-									<textarea class="form-control" placeholder="Описание заявки"></textarea>
+									<textarea class="form-control" placeholder="Текст сообщения" name="inputMessage"></textarea>
 							</div>
 							<div class="b-button">
 									<button type="submit" class="b-link1">Отправить</button>
@@ -69,7 +69,7 @@
 					</div>
 					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 						<ul class="nav navbar-nav">
-							<li class="active"><a href="спецавто-торг.рф"><span>Главная</span></a></li>
+							<li class="active"><a href="<?php echo base_url(); ?>"><span>Главная</span></a></li>
 							<li><a href="<?php echo base_url(); ?>agp"><span>Автовышки</span></a></li>
 							<li><a href="<?php echo base_url(); ?>kmu"><span>Краны-манипуляторы</span></a></li>
 							<li><a href="<?php echo base_url(); ?>aesp"><span>Эвакуаторы</span></a></li>							

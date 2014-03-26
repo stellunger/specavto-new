@@ -1,4 +1,4 @@
-							<ul class="b-right-menu">
+							<!--<ul class="b-right-menu">
 								<li class="active">
 									<a href="#">Автовышки</a>
 									<ul>
@@ -26,4 +26,4 @@
 								<li><a href="#">Эвакуаторы</a></li>
 								<li><a href="#">Автобетонасосы</a></li>
 								<li><a href="#">Электростанции</a></li>
-							</ul>
+							</ul>-->
