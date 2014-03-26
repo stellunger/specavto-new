@@ -3,8 +3,7 @@
 	  <div class="container">
 	  	<!-- Indicators -->
 	  	<ol class="carousel-indicators">
-	  		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-	  		<li data-target="#carousel-example-generic" data-slide-to="1"></li>
+	  		<li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>	  		
 	  	</ol>
 	  	
 	  	<!-- Wrapper for slides -->
@@ -24,10 +23,7 @@
 				</ul>
 				<a href="<?php echo base_url(); ?>about" class="b-link1">Подробнее</a>
 			  </div>
-	  		</div>
-			<div class="item">
-	  		  <img src="images/slider_img.jpg" alt="">
-	  		</div>
+	  		</div>			
 	  	</div>
 	  </div>
 	</div>
