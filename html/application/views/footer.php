@@ -23,12 +23,11 @@
 					<div class="b-contact-footer">
 						<div class="b-item"><span>тел:</span>+7 (831) 212-37-59</div>
 						<div class="b-item"><span>e-mail:</span><a href="#">spectehnika@mail.ru</a></div>
-						<div class="b-item"><span>адрес:</span>г. Екатеренбург ул. Московская,27, оф.123</div>
 					</div>
 				</div>
 				<div class="col-md-4 pull-right">
 					<div class="b-coperate">
-						© Спецавто-торг.рф<br>Разработка и продвижение сайта<br>Бюро интернет-маркетинга "Штеллунгер"
+						© Спецавто-торг.рф<br>Разработка и продвижение сайта<br><a href="http://stellunger.ru">Бюро интернет-маркетинга "Штеллунгер"</a>
 					</div>
 				</div>
 			</div>		
