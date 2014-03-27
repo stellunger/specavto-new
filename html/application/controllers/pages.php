@@ -32,7 +32,7 @@ class Pages extends CI_Controller {
 				$data['title'] = 'Автовышки, автогидроподъемники (АГП) ';
 				break;
 			case 'kmu':
-				$data['title'] = 'Кран-манипуляторы (КМУ) ';
+				$data['title'] = 'Краны-манипуляторы (КМУ) ';
 				break;
 			case 'aesp':
 				$data['title'] = 'Эвакуаторы со сдвижной платформой, автоэвакуаторы ';
@@ -110,34 +110,34 @@ class Pages extends CI_Controller {
 				$data['title'] = 'Урал 4320 Socage 20-28 м - автовышки, автогидроподъемники (АГП) ';
 				break;
 			case 'kmu-gaz-33088-450-900-kg':
-				$data['title'] = 'ГАЗ 33088 Tadano 450-900 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'ГАЗ 33088 Tadano 450-900 кг - Краны-манипуляторы (КМУ) ';
 				break;
 			case 'kmu-gaz-33098-450-900-kg':
-				$data['title'] = 'ГАЗ 33098 Tadano 450-900 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'ГАЗ 33098 Tadano 450-900 кг - Краны-манипуляторы (КМУ) ';
 				break;
 			case 'kmu-gaz-33106-450-900-kg':
-				$data['title'] = 'ГАЗ 33106 Tadano 450-900 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'ГАЗ 33106 Tadano 450-900 кг - Краны-манипуляторы (КМУ) ';
 				break;
 			case 'kmu-hyundai-hd78-450-620-kg':
-				$data['title'] = 'Hyundai HD78 Tadano 450-620 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'Hyundai HD78 Tadano 450-620 кг - Краны-манипуляторы (КМУ) ';
 				break;
 			case 'kmu-hyundai-hd120-520-800-kg':
-				$data['title'] = 'Hyundai HD120 Tadano 520-800 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'Hyundai HD120 Tadano 520-800 кг - Краны-манипуляторы (КМУ) ';
 				break;
 			case 'kmu-hyundai-hd170-780-1180-kg':
-				$data['title'] = 'Hyundai HD170 Tadano 780-1180 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'Hyundai HD170 Tadano 780-1180 кг - Краны-манипуляторы (КМУ) ';
 				break;
 			case 'kmu-isuzu-cyz51q-1830-kg':
-				$data['title'] = 'Isuzu CYZ51Q Amco Veba 1830 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'Isuzu CYZ51Q Amco Veba 1830 кг - Краны-манипуляторы (КМУ) ';
 				break;
 			case 'kmu-isuzu-nlr85a-330-kg':
-				$data['title'] = 'Isuzu NLR85A Amco Veba 330 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'Isuzu NLR85A Amco Veba 330 кг - Краны-манипуляторы (КМУ) ';
 				break;
 			case 'kmu-isuzu-npr75l-450-900-kg':
-				$data['title'] = 'Isuzu NPR75L Tadano 450-900 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'Isuzu NPR75L Tadano 450-900 кг - Краны-манипуляторы (КМУ) ';
 				break;
 			case 'kmu-kamaz-43118-970-1400-kg':
-				$data['title'] = 'КамАЗ 43118 Tadano 970-1400 кг - кран-манипуляторы (КМУ) ';
+				$data['title'] = 'КамАЗ 43118 Tadano 970-1400 кг - Краны-манипуляторы (КМУ) ';
 				break;
 
 
