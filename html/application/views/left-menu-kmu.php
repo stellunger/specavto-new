@@ -1,14 +1,14 @@
 							<ul class="b-right-menu">
-								<li class="active">
+								<li>
 									<a href="agp">Автовышки (АГП)</a>
 									<ul>
-										<li class="active"><a href="#">Расположение стрелы над кабиной</a>
+										<li><a href="#">Расположение стрелы над кабиной</a>
 											<ul>
 												<li><a href="agp-gaz-33098-19-22-m">- ГАЗ 33098 19-22 м</a></li>
 												<li><a href="agp-hyundai-hd78-19-22-m">- Hyundai HD78 19-22 м</a></li>
 											</ul>
 										</li>
-										<li class="active"><a href="#">Расположение стрелы за кабиной</a>
+										<li><a href="#">Расположение стрелы за кабиной</a>
 											<ul>
 												<li><a href="agp-gaz-33106-15-20-m">- ГАЗ 33106 15-20 м</a></li>
 												<li><a href="agp-gaz-3302-15-20-m">- ГАЗ 3302 15-20 м</a></li>
@@ -20,7 +20,7 @@
 												<li><a href="agp-hyundai-hd78-15-20-m">- Hyundai HD78 15-20 м</a></li>
 											</ul>
 										</li>
-										<li class="active"><a href="agp">Комбинированные телескопические</a>
+										<li><a href="agp">Комбинированные телескопические</a>
 											<ul>
 												<li><a href="agp-gaz-23107-14-m">- ГАЗ 23107 14 м</a></li>
 												<li><a href="agp-gaz-33106-20-28-m">- ГАЗ 33106 20-28 м</a></li>
@@ -36,7 +36,7 @@
 										</li>
 									</ul>
 								</li>
-								<li><a href="kmu">Краны-манипуляторы (КМУ)</a>
+								<li class="active"><a href="kmu">Краны-манипуляторы (КМУ)</a>
 									<ul>
 										<li><a href="kmu-gaz-33088-450-900-kg">- ГАЗ 33088 450-900 кг</a></li>
 										<li><a href="kmu-gaz-33106-450-900-kg">- ГАЗ 33106 450-900 кг</a></li>

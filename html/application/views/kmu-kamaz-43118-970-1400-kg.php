@@ -5,7 +5,7 @@
 				<div class="row">
 					<div class="col-md-2">
 						<div class="b-right-menu-container">
-							<?php echo $left_menu_agp; ?>							
+							<?php echo $left_menu_kmu; ?>							
 						</div>
 					</div>
 					<div class="col-md-7 col-sm-6">

@@ -17,6 +17,8 @@ class Pages extends CI_Controller {
 		$data['benefits'] = $this->load->view('benefits','',true);
 		$data['zayavka'] = $this->load->view('zayavka','',true);
 		$data['left_menu_agp'] = $this->load->view('left-menu-agp','',true);
+		$data['left_menu_kmu'] = $this->load->view('left-menu-kmu','',true);
+		$data['left_menu_aesp'] = $this->load->view('left-menu-aesp','',true);
 
 		switch($page_id)
 		{	case 'main-page':
